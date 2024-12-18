@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header form {
+    margin-top: 10px;
+  }
+  
+  header input, header button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  section {
+   width: 20px auto;
+   
+  }
+  
+  #bookList, #favoritesList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .book-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .book-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .book-card img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  button.add-to-favorites, button.mark-read {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  
+  button.mark-read {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  button.add-to-favorites {
+    background-color: #007bff;
+    color: #fff;
+  }
+  button.add-to-favorites {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.add-to-favorites:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Tracker</title>
+  <link rel="stylesheet" href="bookTracker.css">
+</head>
+<body>
+  <header>
+    <h1>Book Tracker</h1>
+    <form id="searchForm">
+      <input type="text" id="searchInput" placeholder="Search books by title or author" required>
+      <button type="submit">Search</button>
+    </form>
+  </header>
+  <main>
+    <section id="results">
+      <h2>Book Results</h2>
+      <div id="bookList"></div>
+    </section>
+    <section id="favorites">
+      <h2>Favorites</h2>
+      <div id="favoritesList"></div>
+    </section>
+  </main>
+  <script src="bookTracker.js"></script>
+</body>
+</html>
