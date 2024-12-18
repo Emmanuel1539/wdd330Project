@@ -26,11 +26,13 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+   
   }
   
   section {
-   width: 20px auto;
-   
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
   }
   
   #bookList, #favoritesList {
